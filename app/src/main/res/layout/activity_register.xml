@@ -8,10 +8,10 @@
     tools:context=".RegisterActivity">
 
     <EditText
-        android:id="@+id/editTextLoginUsername"
+        android:id="@+id/editTextRegUsername"
         android:layout_width="329dp"
         android:layout_height="73dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:drawablePadding="10dp"
@@ -38,7 +38,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         android:paddingLeft="20dp"
         android:paddingTop="10dp"
         android:paddingRight="10dp"
@@ -49,7 +49,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.524"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextLoginUsername" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextRegUsername" />
 
     <TextView
         android:id="@+id/textView"
