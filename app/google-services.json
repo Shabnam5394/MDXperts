@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "998393434961",
+    "firebase_url": "https://mdxperts-c6698-default-rtdb.firebaseio.com",
+    "project_id": "mdxperts-c6698",
+    "storage_bucket": "mdxperts-c6698.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998393434961:android:7739674f5489ee3a057970",
+        "android_client_info": {
+          "package_name": "com.example.mdxperts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998393434961-rhi61gddnsmmukd7rmlgougvs0825fid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mdxperts",
+            "certificate_hash": "16af403d47063b527d3ea84119557649f7957492"
+          }
+        },
+        {
+          "client_id": "998393434961-64e46e55eh5q2idik127rg7h2ildl6mp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8LK6sWQkQ9yxWxixWoGk2qYUgEzovwnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998393434961-64e46e55eh5q2idik127rg7h2ildl6mp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
