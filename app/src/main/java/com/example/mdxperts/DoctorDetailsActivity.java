@@ -16,43 +16,54 @@ import java.util.HashMap;
 public class DoctorDetailsActivity extends AppCompatActivity {
     private String[][] doctor_details1={
             {"Doctor Name:Ajit Saste ","Hospital Address:pimpri ","Exp:5yrs ","Mobile No:9898989898 ","600"},
-            {"Doctor Name:prasad pawar ","Hospital Address:Nigdi ","Exp: ","Mobile No:9797979797 ","900"},
-            {"Doctor Name: Swapnil Kale","Hospital Address:Pune ","Exp: ","Mobile No: 9696969696","300"},
-            {"Doctor Name: Deepak Deshmukh","Hospital Address:chinchwd ","Exp: ","Mobile No:9595959595 ","500"},
-            {"Doctor Name:Ashok Panda ","Hospital Address: ","Exp:ketraj ","Mobile No:7978797879","800"}
+            {"Doctor Name:prasad pawar ","Hospital Address:Nigdi ","Exp:6yrs ","Mobile No:9797979797 ","900"},
+            {"Doctor Name: Swapnil Kale","Hospital Address:Pune ","Exp:5yrs ","Mobile No: 9696969696","300"},
+            {"Doctor Name: Deepak Deshmukh","Hospital Address:chinchwd ","Exp:4yrs ","Mobile No:9595959595 ","500"},
+            {"Doctor Name:Ashok Panda ","Hospital Address:ketranj ","Exp:7yrs ","Mobile No:7978797879","800"},
+            {"Doctor Name: bhaskar jhaa","Hospital Address:bombay ","Exp:4yrs ","Mobile No:9595989595 ","500"},
+            {"Doctor Name:vinus patel ","Hospital Address:kolkatta ","Exp:7yrs ","Mobile No:7978097879","800"}
 
     };
     private String[][] doctor_details2={
+            {"Doctor Name: Deepak kumar","Hospital Address:chinchwd ","Exp:8yrs ","Mobile No:9595959595 ","500"},
+            {"Doctor Name: Swapnil lele","Hospital Address:Pune ","Exp:7yrs ","Mobile No: 9696969696","300"},
+            {"Doctor Name:Ankul Panda ","Hospital Address:ketranj ","Exp:10yrs ","Mobile No:7978797879","800"},
+            {"Doctor Name: bhaskar jhaa","Hospital Address:bombay ","Exp:4yrs ","Mobile No:9595989595 ","500"},
             {"Doctor Name:nilesh borate ","Hospital Address:pimpri ","Exp:5yrs ","Mobile No:9898989898 ","600"},
-            {"Doctor Name:pamkaj pawar ","Hospital Address:Nigdi ","Exp: ","Mobile No:9797979797 ","900"},
-            {"Doctor Name: Swapnil lele","Hospital Address:Pune ","Exp: ","Mobile No: 9696969696","300"},
-            {"Doctor Name: Deepak kumar","Hospital Address:chinchwd ","Exp: ","Mobile No:9595959595 ","500"},
-            {"Doctor Name:Ankul Panda ","Hospital Address: ","Exp:ketraj ","Mobile No:7978797879","800"}
+            {"Doctor Name:pamkaj pawar ","Hospital Address:Nigdi ","Exp:6yrs ","Mobile No:9797979797 ","900"},
+            {"Doctor Name:vinus patel ","Hospital Address:kolkatta ","Exp:7yrs ","Mobile No:7978097879","800"}
 
     };
 
     private String[][] doctor_details3={
-            {"Doctor Name:Seema patil ","Hospital Address:pimpri ","Exp:5yrs ","Mobile No:9898989898 ","600"},
-            {"Doctor Name:pankaj parab ","Hospital Address:Nigdi ","Exp: ","Mobile No:9797979797 ","900"},
-            {"Doctor Name: nilesh Kale","Hospital Address:Pune ","Exp: ","Mobile No: 9696969696","300"},
-            {"Doctor Name: vishal Deshmukh","Hospital Address:chinchwd ","Exp: ","Mobile No:9595959595 ","500"},
-            {"Doctor Name:Akshay Panda ","Hospital Address: ","Exp:ketraj ","Mobile No:7978797879","800"}
+            {"Doctor Name:Ankul Panda ","Hospital Address:ketranj ","Exp:10yrs ","Mobile No:7978797879","800"},
+            {"Doctor Name: bhaskar jhaa","Hospital Address:bombay ","Exp:4yrs ","Mobile No:9595989595 ","500"},
+            {"Doctor Name:nilesh borate ","Hospital Address:pimpri ","Exp:5yrs ","Mobile No:9898989898 ","600"},
+            {"Doctor Name:pamkaj pawar ","Hospital Address:Nigdi ","Exp:6yrs ","Mobile No:9797979797 ","900"},
+            {"Doctor Name: Swapnil lele","Hospital Address:Pune ","Exp:7yrs ","Mobile No: 9696969696","300"},
+            {"Doctor Name: Deepak kumar","Hospital Address:chinchwd ","Exp:8yrs ","Mobile No:9595959595 ","500"},
+            {"Doctor Name:vinus patel ","Hospital Address:kolkatta ","Exp:7yrs ","Mobile No:7978097879","800"}
 
     };
     private String[][] doctor_details4={
-            {"Doctor Name:amol gawade ","Hospital Address:pimpri ","Exp:5yrs ","Mobile No:9898989898 ","600"},
-            {"Doctor Name:anil pawar ","Hospital Address:Nigdi ","Exp: ","Mobile No:9797979797 ","900"},
-            {"Doctor Name: Nayak Kale","Hospital Address:Pune ","Exp: ","Mobile No: 9696969696","300"},
-            {"Doctor Name: Mayur Deshmukh","Hospital Address:chinchwd ","Exp: ","Mobile No:9595959595 ","500"},
-            {"Doctor Name:shrikant Panda ","Hospital Address: ","Exp:ketraj ","Mobile No:7978797879","800"}
+            {"Doctor Name: bhaskar jhaa","Hospital Address:bombay ","Exp:4yrs ","Mobile No:9595989595 ","500"},
+            {"Doctor Name:pamkaj pawar ","Hospital Address:Nigdi ","Exp:6yrs ","Mobile No:9797979797 ","900"},
+            {"Doctor Name: Swapnil lele","Hospital Address:Pune ","Exp:7yrs ","Mobile No: 9696969696","300"},
+            {"Doctor Name:nilesh borate ","Hospital Address:pimpri ","Exp:5yrs ","Mobile No:9898989898 ","600"},
+            {"Doctor Name: Deepak kumar","Hospital Address:chinchwd ","Exp:8yrs ","Mobile No:9595959595 ","500"},
+            {"Doctor Name:Ankul Panda ","Hospital Address:ketranj ","Exp:10yrs ","Mobile No:7978797879","800"},
+            {"Doctor Name:vinus patel ","Hospital Address:kolkatta ","Exp:7yrs ","Mobile No:7978097879","800"}
 
     };
     private String[][] doctor_details5={
-            {"Doctor Name:Ajit Saste ","Hospital Address:pimpri ","Exp:5yrs ","Mobile No:9898989898 ","600"},
-            {"Doctor Name:prasad pawar ","Hospital Address:Nigdi ","Exp: ","Mobile No:9797979797 ","900"},
-            {"Doctor Name: Swapnil Kale","Hospital Address:Pune ","Exp: ","Mobile No: 9696969696","300"},
-            {"Doctor Name: Deepak Deshmukh","Hospital Address:chinchwd ","Exp: ","Mobile No:9595959595 ","500"},
-            {"Doctor Name:Ashok Panda ","Hospital Address: ","Exp:ketraj ","Mobile No:7978797879","800"}
+            {"Doctor Name: Swapnil lele","Hospital Address:Pune ","Exp:7yrs ","Mobile No: 9696969696","300"},
+            {"Doctor Name: Deepak kumar","Hospital Address:chinchwd ","Exp:8yrs ","Mobile No:9595959595 ","500"},
+            {"Doctor Name:vinus patel ","Hospital Address:kolkatta ","Exp:7yrs ","Mobile No:7978097879","800"},
+            {"Doctor Name:Ankul Panda ","Hospital Address:ketranj ","Exp:10yrs ","Mobile No:7978797879","800"},
+            {"Doctor Name:nilesh borate ","Hospital Address:pimpri ","Exp:5yrs ","Mobile No:9898989898 ","600"},
+            {"Doctor Name:pamkaj pawar ","Hospital Address:Nigdi ","Exp:6yrs ","Mobile No:9797979797 ","900"},
+            {"Doctor Name: bhaskar jhaa","Hospital Address:bombay ","Exp:4yrs ","Mobile No:9595989595 ","500"}
+
 
     };
 
